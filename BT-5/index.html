@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col ms-5">
+                <h1>Listado de Usuarios del Sistema</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-3 mostrar">
+                Mostrar
+                <select class="sel" id="">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                </select>
+                registros
+            </div>
+            <div class="col-7 buscar">
+                Buscar: <input class="inp" type="text">
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-md-1 inicio"></div>
+            <div class="col-12 col-md-10 medio">
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Usuario</th>
+                        <th>Sector</th>
+                        <th>Ultimo Ingreso</th>
+                        <th>Accion</th>
+                    </tr>
+                    <tr class="impar">
+                        <td>1</td>
+                        <td>admin</td>
+                        <td>Administracion</td>
+                        <td>2018-01-17 12:49:56</td>
+                        <td>
+                            <div class="divbutton">
+                                <button class="eye" type="button"><img src="./img/eye.png" alt=""></button>
+                                <button class="write" type="button"><img src="./img/write.png" alt=""></button>
+                                <button class="delete" type="button"><img src="./img/delete.png" alt=""></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>marcelo</td>
+                        <td>Administracion</td>
+                        <td>2018-02-24 13:38:56</td>
+                        <td>
+                            <div class="divbutton">
+                            <button class="eye" type="button"><img src="./img/eye.png" alt=""></button>
+                            <button class="write" type="button"><img src="./img/write.png" alt=""></button>
+                            <button class="delete" type="button"><img src="./img/delete.png" alt=""></button>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr class="impar">
+                        <td>3</td>
+                        <td>eduardo</td>
+                        <td>Produccion</td>
+                        <td>2018-02-08 10:54:36</td>
+                        <td>
+                            <div class="divbutton">
+                                <button class="eye" type="button"><img src="./img/eye.png" alt=""></button>
+                                <button class="write" type="button"><img src="./img/write.png" alt=""></button>
+                                <button class="delete" type="button"><img src="./img/delete.png" alt=""></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>jorge</td>
+                        <td>Administracion</td>
+                        <td>2018-02-08 09:43:26</td>
+                        <td>
+                            <div class="divbutton">
+                                <button class="eye" type="button"><img src="./img/eye.png" alt=""></button>
+                                <button class="write" type="button"><img src="./img/write.png" alt=""></button>
+                                <button class="delete" type="button"><img src="./img/delete.png" alt=""></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="impar">
+                        <td>7</td>
+                        <td>gaston</td>
+                        <td>Produccion</td>
+                        <td>2018-02-20 17:25:45</td>
+                        <td>
+                            <div class="divbutton">
+                                <button class="eye" type="button"><img src="./img/eye.png" alt=""></button>
+                                <button class="write" type="button"><img src="./img/write.png" alt=""></button>
+                                <button class="delete" type="button"><img src="./img/delete.png" alt=""></button>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="col-12 col-md-1 final">
+
+            </div>
+               
+                
+
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-1"></div>
+            <div class="col-12 col-sm-5 mt-3 txtmos">
+                Mostrando del 1 al 5 de un total de 5 registros
+            </div>
+            <div class="col-12 col-sm-5 mt-2 antsig">
+                <button class="rounded-start-2" type="button">Anterior</button>
+                <button class="page" type="button">1</button>
+                <button class="rounded-end-2" type="button">Siguiente</button>
+            </div>
+            <div class="col-12 col-sm-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-1"></div>
+            <div class="col-12 col-sm-10 mt-3">
+                <button class="rounded-3 addnew" type="button">Agregar Usuario</button>           
+            </div>
+            <div class="col-12 col-sm-1"></div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

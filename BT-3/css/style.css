@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(130, 133, 133);
+}
+.in {
+  background-color: rgb(255, 255, 255);
+}
+.inplus {
+  display: flex;
+}
+.in-uno {
+  margin-right: auto;
+}
+.in-uno img,
+.in-dos img {
+  width: 25px;
+}
+.in-dos a {
+  color: rgb(0, 0, 0);
+}
+.azul {
+  background-color: rgb(37, 86, 210);
+  color: rgb(255, 255, 255);
+  height: 100%;
+  display: flex;
+}
+.azul img{
+  width: 25px;
+}
+.veright{
+  margin-left: auto;
+}
+.ic img{
+    width: 30px;
+}
+.linkoption{
+  color: rgb(255, 255, 255)!important;
+}
+.actual,.actual:hover{
+  background-color: white;
+  color: black;
+}
+.azuldrop,.azuldrop:hover{
+  color: rgb(255, 255, 255);
+}
+
+
+

@@ -1,0 +1,82 @@
+body {
+  background-image: url(../img/fondoform.jpg);
+}
+.colum-1 {
+  height: 80vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+.zonatext {
+  grid-row: 1/2;
+  align-self: last baseline;
+}
+.h3-lorem {
+  color: white;
+}
+.fondocandado {
+  background-color: white;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr 2fr;
+  grid-template-columns: 5fr 1fr;
+}
+.uno {
+  grid-row: 1/2;
+}
+.dos {
+  grid-row: 2/3;
+}
+.imgcandado {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  width: 50px;
+  margin-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+.formulario {
+  grid-row: 3/5;
+  grid-column: 1/3;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  background-color: rgb(185, 185, 185);
+}
+.username {
+  grid-row: 1/2;
+}
+.passw {
+  grid-row: 2/3;
+}
+.login {
+  grid-row: 3/4;
+}
+.uno,.dos {
+  color: rgb(155, 155, 155);
+}
+.colum-2 {
+  height: 20vh;
+}
+.webs{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.txt-web{
+    color: white;
+}
+.back-color{    
+    color: rgb(155, 155, 155);
+   background-color: rgb(36, 36, 36);
+   border: black;
+}
+.back-color:hover{ 
+    background-color: black;
+}
+.fb-icon{ 
+    width: 20px;
+    margin-right: 5px;
+}
